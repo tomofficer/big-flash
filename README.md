@@ -1,11 +1,11 @@
-Project Description :
+**Project Description :**
 
 
 The Flash-O-Matic flashcard app was a front end capstone project for the Thinkful Software Engineering program. The concept behind this project was to create a React application in which teachers could use to help their students study online. The flashcard app would allow teachers to quickly create decks of flashcards for the subjects that they teach and provide their students with the decks to study.
 
 
 
-Tools used during development :
+**Tools used during development :**
 
 •React.js
 
@@ -23,7 +23,7 @@ Tools used during development :
 
 
 
-Objectives :
+**Objectives :**
 
 
 •Installing packages via NPM
