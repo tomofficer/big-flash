@@ -5,22 +5,22 @@ The Flash-O-Matic flashcard app was a front end capstone project for the Thinkfu
 
 Tools used during development :
 
--React.js
--JavaScript
--HTML
--CSS
--Bootstrap 4
--Wireframing
--RESTful API
+•React.js
+•JavaScript
+•HTML
+•CSS
+•Bootstrap 4
+•Wireframing
+•RESTful API
 
 
 Objectives :
 
--Installing packages via NPM
--Running tests from the command line
--Writing React function components
--Managing controlled inputs
--Creating routes, including nested routes, using React Router
--Using hooks like useState(), useParams(), useHistory()
--Debugging React code through console output and using the VS Code debugger
+•Installing packages via NPM
+•Running tests from the command line
+•Writing React function components
+•Managing controlled inputs
+•Creating routes, including nested routes, using React Router
+•Using hooks like useState(), useParams(), useHistory()
+•Debugging React code through console output and using the VS Code debugger
 
