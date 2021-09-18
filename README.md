@@ -5,6 +5,7 @@ The Flash-O-Matic flashcard app was a front end capstone project for the Thinkfu
 
 
 
+
 **Tools used during development :**
 
 •React.js
@@ -20,6 +21,8 @@ The Flash-O-Matic flashcard app was a front end capstone project for the Thinkfu
 •Wireframing
 
 •RESTful API
+
+
 
 
 
