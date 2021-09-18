@@ -22,7 +22,9 @@ export default function Layout() {
   };
 
   return (
+    
     <div>
+    
       <Header />
 
       <div className="container mb-4">
@@ -33,16 +35,16 @@ export default function Layout() {
             <Home updateDecks={updateDecks} totalDecks={totalDecks} />
           </Route>
 
+          <Route path="/decks/:deckId/study">
+            <Study />
+          </Route>
+
           <Route path="/decks/new">
             <CreateDeck updateDecks={updateDecks} />
           </Route>
 
           <Route path="/decks/:deckId" exact>
             <Deck updateDecks={updateDecks} />
-          </Route>
-
-          <Route path="/decks/:deckId/study">
-            <Study />
           </Route>
 
           <Route path="/decks/:deckId/edit">
@@ -64,6 +66,8 @@ export default function Layout() {
         </Switch>
 
       </div>
+
     </div>
+
   )
 }
