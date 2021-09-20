@@ -22,6 +22,7 @@ export default function CardForm({ card, deckId, submitForm, changeForm }) {
                     className="form-control"
                     placeholder="Front side of card"
                     rows={4}
+                    required
                 />
             </div>
             <div className="form-group">
@@ -34,6 +35,7 @@ export default function CardForm({ card, deckId, submitForm, changeForm }) {
                     id="back"
                     placeholder="Back side of card"
                     rows={4}
+                    required
                 />
             </div>
             <Link
