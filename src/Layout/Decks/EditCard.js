@@ -56,12 +56,12 @@ export default function EditCard({ updateDecks }) {
     return (
         <div className="col-9 mx-auto">
 
-            {/* navigation bar */}
+            
             <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                     <li className="breadcrumb-item">
 
-                        {/* link to home page */}
+                        
                         <Link to={"/"}>
                             <i className="fa fa-home" aria-hidden="true">
                             </i>
@@ -69,14 +69,14 @@ export default function EditCard({ updateDecks }) {
                         </Link>
                     </li>
 
-                    {/* deck name */}
+                    
                     <li className="breadcrumb-item">
                         <Link to={`/decks/${deckId}`}>
                             {deck.name}
                         </Link>
                     </li>
 
-                    {/* edit card */}
+                    
                     <li className="breadcrumb-item">
                         Edit Card {cardId}
                     </li>
