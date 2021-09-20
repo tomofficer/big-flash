@@ -118,6 +118,7 @@ export default function Deck({ updateDecks }) {
                                 <i className="fa fa-trash"
                                     aria-hidden="true">
                                 </i>
+                                Delete
                             </button>
                         </div>
                     </div>
@@ -164,6 +165,7 @@ export default function Deck({ updateDecks }) {
                                         <i className="fa fa-trash"
                                             aria-hidden="true">
                                         </i>
+                                        Delete
                                     </button>
                                 </div>
                             </div>
@@ -174,4 +176,5 @@ export default function Deck({ updateDecks }) {
         )
     }
 }
+
 
