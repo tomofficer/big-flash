@@ -82,6 +82,7 @@ export default function EditDeck({ updateDecks }) {
                             id="name"
                             className="form-control"
                             placeholder={deck.name}
+                            required
                         />
                     </div>
                     <div className="form-group">
@@ -94,6 +95,7 @@ export default function EditDeck({ updateDecks }) {
                             id="description"
                             placeholder={deck.description}
                             rows={4}
+                            required
                         />
                     </div>
                     <Link to={`/decks/${deckId}`} name="cancel" className="btn btn-secondary mr-3">
